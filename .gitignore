@@ -1,0 +1,47 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# PlatformIO
+SmartControl/.pio/
+SmartControl/.sconsign*.dblite
+
+# Node.js and Plasmo
+smart-remote-extension/node_modules/
+smart-remote-extension/.plasmo/
+smart-remote-extension/build/
+smart-remote-extension/dist/
+smart-remote-extension/out/
+smart-remote-extension/coverage/
+smart-remote-extension/.parcel-cache/
+smart-remote-extension/*.tsbuildinfo
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
